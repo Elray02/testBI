@@ -1,0 +1,114 @@
+
+
+/* mat-grid-tile {
+  background: rgb(177, 181, 182);
+  -webkit-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.14), 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 6px 6px -2px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.14), 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 6px 6px -2px rgba(0, 0, 0, 0.2);
+  border-radius: 9px;
+  margin: 10px;
+} */
+
+#mainGrid {
+  display: grid;
+  grid-template-columns: 50vw 40vw;
+  grid-template-rows: 80vh;
+  grid-gap: 1em;
+  /* justify-items: center; */
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+ul{
+  list-style-type: none;
+}
+li {
+  text-align: center;
+}
+canvas{
+  background-color: cornsilk;
+}
+.card {
+  background: #5087af;
+  -webkit-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.14), 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 6px 6px -2px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.14), 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 6px 6px -2px rgba(0, 0, 0, 0.2);
+  border-radius: 9px;
+  padding: 20px;
+}
+
+#chart {
+  grid-column: 1;
+  grid-row: 1;
+
+}
+#list {
+  grid-column: 2;
+  grid-row: 1;
+  overflow: auto;
+
+}
+#paginator {
+  background-color: cornsilk;
+}
+#loaderChart{
+  grid-column: 1;
+  grid-row: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+
+}
+#loaderList{
+  grid-column: 2;
+  grid-row: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+table {
+  width: 100%;
+  background-color: cornsilk;
+}
+
+
+.stats-element-detail {
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.stats-element-description{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+tr.stats-detail-row {
+  height: 0;
+}
+
+tr.stats-element-row:not(.example-expanded-row):hover {
+  background: #f5f5f5;
+}
+
+tr.stats-element-row:not(.example-expanded-row):active {
+  background: #efefef;
+}
+
+.stats-element-row td {
+  border-bottom-width: 0;
+}

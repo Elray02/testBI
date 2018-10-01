@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { 
+    margin: 0;
+    font-family: 'Roboto', sans-serif; 
+    background: rgb(218,227,222);
+    background: radial-gradient(circle, rgba(218,227,222,1) 0%, rgba(145,148,146,1) 47%, rgba(92,96,94,1) 100%);
+}
